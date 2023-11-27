@@ -14,15 +14,23 @@ int main()
     float area = areaOfCircle(radius, pi);
     std::cout << "\n The area is " << area;
 
+    // JUST ME TRYING OUT SOME NEW THINGS I LEARNT
+
     // unsigned short int *b;
     // cout << &b << endl;
 
     // USHORT myAge; // a variable
+    // cout << &myAge << endl;
     // USHORT *pAge = 0; // a pointer
+    // cout << &pAge << endl;
     // myAge = 5;
     // cout << "myAge: " << myAge << endl;
     // pAge = &myAge; // assign address of myAge to pAge
     // cout << "*pAge: " << *pAge << endl;
+    // cout << &myAge << " " << &pAge << " " << pAge << endl;
+
+    // delete pAge;
+    // delete myAge;
 
     
     return 0;
